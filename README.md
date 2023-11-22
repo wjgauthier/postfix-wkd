@@ -56,7 +56,7 @@ smtp      inet  n       -       y       -       -       smtpd
 
 <b>filter    unix  -       n       n       -       10      pipe
     flags=Rq user=wkd-user null_sender=
-    argv=/home/wkd-user/wkd-postfix.py -f ${sender} -- ${recipient}</b></pre>
+    argv=/home/wkd-user/postfix-wkd.py -f ${sender} -- ${recipient}</b></pre>
 
 Restart Postfix
 
