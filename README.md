@@ -1,6 +1,6 @@
 # Automatically encrypt emails using WKD and Postfix
 
-See https://wgauthier.net/blog/automatically-encrypt-emails-using-wkd-and-postfix/
+See https://wgauthier.com/blog/automatically-encrypt-emails-using-wkd-and-postfix/
 
 This is a small Python script that will automatically encrypt all outgoing emails to receipients that have published their public PGP keys in the Web Key Directory (WKD). The script will receive and process e-mails received from Postfix's pipe delivery agent and re-inject the e-mail back into Postfix for final delivery.
 
